@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel" thread-count="2" parallel="tests">
+    <listeners>
+        <listener class-name="tests.base.TestListener" />
+    </listeners>
+    <test name="Google Pixel 4">
+        <parameter name="deviceIndex" value="0"/>
+        <parameter name="platform" value="AOS"/>
+        <classes>
+            <class name="tests.onBoarding.OnboardingTest"/>
+        </classes>
+    </test>
+
+    <test name="Google Pixel 7 Pro">
+        <parameter name="deviceIndex" value="1"/>
+        <parameter name="platform" value="AOS"/>
+        <classes>
+            <class name="tests.onBoarding.OnboardingTest"/>
+        </classes>
+    </test>
+</suite>

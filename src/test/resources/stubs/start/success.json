@@ -1,0 +1,12 @@
+{
+  "request_ref": "b81ed9c4543a438fb3f5609e26c3ec11",
+  "response_ref": "cdea0051305641c08f5b8e333c0cde72",
+  "result": "ok",
+  "timestamp": "2025-01-21T17:40:03.879775",
+  "success": {
+    "style": "TOST",
+    "header": "Успішно:",
+    "message": "Успішно",
+    "sub_message": ""
+  }
+}

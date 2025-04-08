@@ -1,0 +1,27 @@
+{
+    "server": "hub-cloud.browserstack.com",
+    "username": "bsuser_WNCwvM",
+    "access_key": "jRZwEynszwBuVsAmiqwb",
+
+    "capabilities": {
+        "project": "Mobile iOS Project",
+        "build": "browserstack-build-1",
+        "name": "Mob_tests",
+        "browserstack.debug": true,
+        "autoDismissAlerts": true,
+        "autoAcceptAlerts": true,
+        "browserstack.networkLogs": true,
+        "app": "bs://384deffd1887545e6269c929b7ef0d63d774fc68"
+    },
+
+    "environments": [
+        {
+            "device": "iPhone 8",
+            "os_version": "12"
+        },
+        {
+            "device": "iPhone 11",
+            "os_version": "13"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "server": "hub-cloud.browserstack.com",
+    "username": "bsuser_WNCwvM",
+    "access_key": "jRZwEynszwBuVsAmiqwb",
+
+    "capabilities": {
+        "project": "Mobile AOS Project",
+        "build": "browserstack-build-1",
+        "name": "Mob_tests",
+        "browserstack.debug": true,
+        "autoGrantPermissions": true,
+        "browserstack.networkLogs": true,
+        "app": "bs://42703c58fed8ab47a88436a336aed54be19e166c"
+    },
+
+    "environments": [
+        {
+            "device": "Google Pixel 4",
+            "os_version": "11.0"
+        },
+        {
+            "device": "Google Pixel 7 Pro",
+            "os_version": "13.0"
+        }
+    ]
+}
