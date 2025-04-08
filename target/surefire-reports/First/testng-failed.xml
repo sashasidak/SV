@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [First]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="FirstTest(failed)" verbose="0">
+    <classes>
+      <class name="tests.onBoarding.OnboardingTest">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="sendAssetToAnotherWallet"/>
+          <include name="createDriver"/>
+        </methods>
+      </class> <!-- tests.onBoarding.OnboardingTest -->
+    </classes>
+  </test> <!-- FirstTest(failed) -->
+</suite> <!-- Failed suite [First] -->

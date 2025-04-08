@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IOS_smock" thread-count="2" parallel="tests">
+    <listeners>
+        <listener class-name="tests.base.TestListener" />
+    </listeners>
+<test name="iPhone 8">
+    <parameter name="deviceIndex" value="0"/>
+    <parameter name="platform" value="IOS"/>
+    <classes>
+        <class name="tests.onBoarding.OnboardingTest"/>
+    </classes>
+</test>
+
+<test name="iPhone 11">
+    <parameter name="deviceIndex" value="1"/>
+    <parameter name="platform" value="IOS"/>
+    <classes>
+        <class name="tests.onBoarding.OnboardingTest"/>
+    </classes>
+</test>
+</suite>
